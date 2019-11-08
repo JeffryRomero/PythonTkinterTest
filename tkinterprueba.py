@@ -18,7 +18,7 @@ class Window():
             self.lbl = Label(self.window, text=labeltxt, style="BW.TLabel")
             self.lbl.grid(column=0, row=0)
         else:
-            print('ingrese un adecuado adecuado')
+            print('ingrese un label adecuado')
 
     def styleForDarkcula(self):
         self.style = Style()
